@@ -32,27 +32,141 @@
 				</section>
 
 				<section>
-					<h2>App Development</h2>
+					<section>
+						<h2>App Development</h2>
 
-					<ul>
-						<li>What's Programming?</li>
-						<li>Different Fields for Developers</li>
-						<li>What Are Frameworks?</li>
-						<li>Developer Career Choices</li>
-					</ul>
+						<ul>
+							<li>What's Programming?</li>
+							<li>What Are Frameworks?</li>
+							<li>Various Fields for Developers</li>
+							<li>Developer Career Choices</li>
+						</ul>
+					</section>
+
+					<section>
+						<h3>What's Programming?</h3>
+
+						<h4>The art of instructing computers (coding)</h4>
+						<pre><code class="php">
+if (date('Y') >= 2020) {
+	echo 'I became a developer';
+} else {
+	echo 'Still learning how to code';
+}
+						</code></pre>
+					</section>
+
+					<section>
+						<h4>Computers could understand many <u>programming languages</u></h4>
+						<pre><code class="java">
+Date date = new Date();
+if (date.getYear() >= 2020) {
+	System.out.println("I became a developer");
+} else {
+	System.out.println("Still learning how to code");
+}
+						</code></pre>
+					</section>
+
+					<section>
+						<h4><u>Frameworks</u> are painkillers</h4>
+						<pre><code class="php">// Native PHP
+$queryResult = mysqli_query($connect, "SELECT * FROM cars
+ WHERE mode > '2010' ORDER BY created_at DESC");
+
+while ($car = mysqli_fetch_array($queryResult)) {
+	echo $car['name'];
+}</code></pre>
+						<pre><code class="php">// Laravel
+$cars = Car::latest()->where('model', '>', 2010)->get();
+
+foreach ($cars as $car) {
+	echo $car->name;	
+}</code></pre>
+					</section>
+
+					<section>
+						<h3>Various Fields for Developers</h3>
+						<ul>
+							<li>Frontend Developer</li>
+							<li>Mobile Developer</li>
+							<li>Backend Developer</li>
+							<li>Full-stack Developer</li>
+							<li>OS Developer</li>
+							<li>Game Developer</li>
+							<li>...etc</li>
+						</ul>
+					</section>
+
+					<section>
+						<h3>Career Chances</h3>
+						<ul>
+								<li>Local demand</li>
+								<li>Experience over certificates</li>
+								<li><u>Remote</u> opportunities</li>
+								<li>Making sellable products</li>
+								<li>Starting up</li>
+						</ul>
+					</section>
 				</section>
 
 				<section>
-					<h2>Web Development in Depth</h2>
+					<section>
+						<h2>Web Development in Depth</h2>
 
-					<ul>
-						<li>Intro</li>
-						<li>What is Frontend?</li>
-						<li>And Backend?</li>
-						<li>Real-life Example :)</li>
-						<li>Frontend Technologies</li>
-						<li>Backend Technologies</li>
-					</ul>
+						<ul>
+							<li>What is Frontend?</li>
+							<li>And Backend?</li>
+							<li>Real-life Example :)</li>
+							<li>Frontend Technologies</li>
+							<li>Backend Technologies</li>
+						</ul>
+					</section>
+
+					<section>
+						<h4>Frontend Development:</h4>
+						<p>Coding what users see infront of them</p>
+						<ul>
+							<li>Layouts</li>
+							<li>Buttons</li>
+							<li>Colors</li>
+							<li>Client-side interactions(web)</li>
+							<li>...etc</li>
+						</ul>
+					</section>
+
+					<section>
+						<h4>Backend Development:</h4>
+						<p>Coding the <em>"behind the scenes"</em> business logic</p>
+						<ul>
+							<li>Conditioned flows</li>
+							<li>Dealing with databases</li>
+							<li>Dealing with filesystems</li>
+							<li>Sending emails</li>
+						</ul>
+					</section>
+
+					<section data-background="white">
+						<p style="font-size: 3em;">IRW Example :)</p>
+					</section>
+
+					<section>
+						<h4>Web development</h4>
+						<ul>
+							<li>Frontend web development
+								<ul>
+									<li>Html, Css and Javascript</li>
+									<li>Bootstrap..</li>
+									<li>Vue, React or Angular?</li>
+								</ul>
+							</li>
+							<li>Backend web development
+								<ul>
+									<li>PHP Laravel, Node.js or whatever...</li>
+								</ul>
+							</li>
+						</ul>
+					</section>
 				</section>
 
 				<section>
